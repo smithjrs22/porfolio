@@ -36,6 +36,12 @@
     justify-content:center;
     align-items:center;
     }
+.thirdhalfpageinterest {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    }
 .column {
     float: left;
     padding: 5px;

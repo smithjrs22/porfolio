@@ -1,0 +1,80 @@
+.navbar {
+    display:flex;
+    align-self:center;
+    background-color:#FF3B4F;
+    overflow:hidden;
+    padding: 15px;
+    }
+.navbar a {
+    text-decoration: none;
+    font-size: 14px 16px;
+    border-bottom: 3px solid transparent;
+    color:#CAEBF2;
+    margin:20px;
+    }
+.nav a.active {
+    border-bottom: 3px solid blue;
+    }
+.container
+    {
+    background-color:#f1f1f1;
+    }
+    ul {
+    display:flex;
+}
+#girlthinking {
+    border-radius: 30%;
+  }
+.interestpageflex {
+    display:flex;
+    align-self:center;
+    justify-content:center
+    }
+.secondhalfpageinterest {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    }
+.column {
+    float: left;
+    padding: 5px;
+    }
+
+footer {
+    padding: 10px 20px;
+    background: #A9A9A9;
+    color: #CAEBF2;
+      }  
+body{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 15px;
+    background-color:#f1f1f1;
+    }
+
+.skills {
+    display:flex;
+    }
+.button {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    }
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+      }
+.button:hover, .button:focus, .button:active {
+    -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
